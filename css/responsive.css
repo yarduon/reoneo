@@ -1,0 +1,156 @@
+/* https://yarduon.com */
+@media screen and (max-width: 123vh) {
+  .left-side,
+  .right-side {
+    width: 100%;
+  }
+
+  .small-name-fontsize,
+  .tiny-name-fontsize {
+    font-size: 3.5vh;
+  }
+
+  .medium-fontsize {
+    font-size: 10.5vh;
+  }
+
+  .max-name-fontsize {
+    font-size: 9vh;
+  }
+
+  .normal-name-fontsize {
+    font-size: 5vh;
+  }
+
+  .normal-height {
+    height: 42.8%;
+  }
+
+  .medium-height {
+    height: 35.5%;
+  }
+
+  .special-height {
+    height: 28%;
+  }
+
+  .alert {
+    padding: 1vh 0 0 0;
+    background-color: #0f0e0e;
+  }
+
+  .tiny-square {
+    width: 4vh;
+    height: 4vh;
+  }
+
+  #burger-button {
+    top: 0;
+    margin: 3.6vh 2.4vh 2.5vh 0;
+  }
+
+  .edit {
+    margin: 0vh 2.3vh 2.4vh 0;
+  }
+
+  .change-scores {
+    flex-direction: column-reverse;
+  }
+
+  .input-form {
+    padding: 2.2vh 0 2.2vh 0;
+  }
+}
+
+@media screen and (max-width: 75vh) {
+  .small-name-fontsize,
+  .subtitle-option-fontsize {
+    font-size: 2.4vh;
+  }
+
+  .tiny-name-fontsize,
+  .special-name-fontsize {
+    font-size: 1.9vh;
+  }
+
+  .normal-name-fontsize {
+    font-size: 3.5vh;
+  }
+
+  .small-fontsize {
+    font-size: 1.9vh;
+  }
+
+  .medium-fontsize {
+    font-size: 7.5vh;
+  }
+
+  .max-name-fontsize {
+    font-size: 7vh;
+  }
+
+  .normal-height {
+    height: 43.8%;
+  }
+
+  .medium-height {
+    height: 37.7%;
+  }
+
+  .special-height {
+    height: 31.6%;
+  }
+
+  .alert {
+    padding: 0.7vh 0 0 0;
+    font-size: 1.6vh;
+  }
+
+  .tiny-square {
+    width: 3vh;
+    height: 3vh;
+  }
+
+  .container-timer {
+    margin-top: 1vh;
+  }
+
+  #timer {
+    font-size: 11vh;
+    height: 9.5vh;
+  }
+
+  .reset {
+    margin: 14.6vh 0 0 2.4vh;
+  }
+
+  #burger-button {
+    margin: 4.1vh 2.4vh 2.5vh 0;
+  }
+
+  .edit {
+    margin-bottom: 3vh;
+    margin-right: 2.3vh;
+  }
+
+  .submenu {
+    height: 2.8vh;
+  }
+
+  .burger-menu {
+    width: 100%;
+  }
+
+  .line {
+    margin: 0.4vh 0 0.4vh 0;
+  }
+
+  .input-form {
+    height: 0;
+    font-size: 2.5vh;
+  }
+
+  .options-button {
+    font-size: 2vh;
+  }
+}

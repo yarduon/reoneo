@@ -1,0 +1,414 @@
+/* https://yarduon.com */
+.horizontal-line,
+.form-burger {
+  width: 98%;
+}
+
+.half-width,
+.left-side,
+.right-side {
+  width: 50%;
+}
+
+.tiny-square,
+#burger-button {
+  width: 4vh;
+  height: 4vh;
+}
+
+.main-container,
+.burger-menu {
+  height: 78%;
+}
+
+.vertical-line,
+#t-message {
+  height: 5vh;
+}
+
+.disabled,
+.opacity:hover {
+  opacity: 0.8;
+}
+
+/* Hide spinbox from input number in browsers */
+.hidden-webstyles,
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  -o-appearance: none;
+  -moz-appearance: none;
+}
+
+.alert,
+.small-alert,
+#t-message,
+.options-button {
+  font-size: 1.8vh;
+}
+
+.alert {
+  padding: 1.4vh 1.4vh 1.5vh 1.4vh;
+  margin: 0 0 0 2.4vh;
+  border-bottom-right-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+  transition: top 0.6s;
+}
+
+.team {
+  border: 1.3vh solid transparent;
+  border-image: url("../img/backgrounds/black.png") 30 round;
+}
+
+.outline {
+  outline: 0.4vh solid rgba(0, 0, 0, 0);
+}
+
+.error {
+  outline-color: #d42d2d;
+}
+
+.light-red {
+  background-color: #ca2b2b;
+}
+
+.red {
+  background-color: #a81f15;
+}
+
+.blue {
+  background-color: #0c496d;
+}
+
+.orange {
+  background-color: #c44311;
+}
+
+.purple {
+  background-color: #741174;
+}
+
+.green {
+  background-color: #136313;
+}
+
+.brown {
+  background-color: #6e3a10;
+}
+
+.pink {
+  background-color: #a51b59;
+}
+
+.teal {
+  background-color: #0a634e;
+}
+
+.light-grey {
+  background-color: #5e584f;
+}
+
+.grey {
+  background-color: #494848;
+}
+
+.dark-grey {
+  background-color: #2a3236;
+}
+
+.very-dark-grey {
+  background-color: #191e20;
+}
+
+.very-light-black {
+  background-color: #473e3e;
+}
+
+.light-black {
+  background-color: #181818;
+}
+
+.black {
+  background-image: url("../img/backgrounds/black.png");
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.radius-button {
+  border-radius: 0.7vh;
+}
+
+.border-bottom-right-radius {
+  border-bottom-right-radius: 1vh;
+}
+
+.border-bottom-left-radius {
+  border-bottom-left-radius: 1vh;
+}
+
+.horizontal-line {
+  height: 0.2vh;
+  margin: 0.5vh 0 1vh 0;
+}
+
+.touch {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.deactivated {
+  pointer-events: none;
+}
+
+.white-text {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.anton {
+  font-family: "Anton";
+}
+
+.medium-fontsize {
+  font-size: 12vh;
+}
+
+.big-name-fontsize {
+  font-size: 10vh;
+}
+
+.max-name-fontsize {
+  font-size: 11vh;
+}
+
+.normal-name-fontsize {
+  font-size: 9.5vh;
+}
+
+.small-name-fontsize {
+  font-size: 6vh;
+}
+
+.special-name-fontsize {
+  font-size: 2.7vh;
+}
+
+.tiny-name-fontsize {
+  font-size: 5.5vh;
+}
+
+.small-fontsize {
+  font-size: 1.7vh;
+}
+
+.max-width {
+  width: 100%;
+}
+
+.width-by-three {
+  width: 33.33%;
+}
+
+.max-height {
+  height: 100%;
+}
+
+.half-height {
+  height: 50%;
+}
+
+.normal-height {
+  height: 41.5%;
+}
+
+.height-by-three {
+  height: 33.4%;
+}
+
+.medium-height {
+  height: 32.5%;
+}
+
+.special-height {
+  height: 23%;
+}
+
+.top-container {
+  height: 22%;
+}
+
+.reset {
+  margin: 15.1vh 0 0 2.4vh;
+}
+
+.reset-icon {
+  width: 4.8vh;
+}
+
+.edit {
+  margin: 0vh 9.6vh 2.35vh 0;
+}
+
+.edit-icon {
+  width: 5.6vh;
+}
+
+.container-timer {
+  height: 14.5vh;
+  margin-top: 1.3vh;
+}
+
+#timer {
+  font-size: 13vh;
+  height: 10vh;
+}
+
+.submenu {
+  width: 26vh;
+  height: 1.7vh;
+}
+
+.submenu-fontsize {
+  font-size: 3vh;
+}
+
+.icon-submenu {
+  width: 2.8vh;
+}
+
+.submenu-fontsize {
+  margin-top: 0.2vh;
+  font-size: 3.2vh;
+}
+
+.burger-checkbox:checked ~ .top-container .burger-icon {
+  transform: rotate(90deg);
+}
+
+.burger-menu {
+  width: 60vh;
+  height: 76.8vh;
+  padding: 0.5vh 2vh 0.5vh 2vh;
+}
+
+.burger-icon {
+  width: 3vh;
+}
+
+#burger-button {
+  width: 4.6vh;
+  height: 4.6vh;
+  margin: 0vh 2.5vh 2.3vh 0;
+}
+
+.line {
+  margin: 1.5vh 0 1.5vh 0;
+}
+
+.title-option-fontsize {
+  font-size: 2.5vh;
+}
+
+.subtitle-option-fontsize {
+  font-size: 2.1vh;
+}
+
+.input-form-container {
+  margin: 1vh 0 0 0;
+}
+
+.formdata-fontsize {
+  font-size: 2.3vh;
+}
+
+.input-form {
+  padding: 2vh 0 2vh 0;
+  width: 7vh;
+  height: 3vh;
+}
+
+.subcontainer-form {
+  margin: 0 2vh 0.5vh 0;
+}
+
+.timer-text {
+  margin-top: 0.3vh;
+}
+
+.subtitle-side {
+  margin-left: 0.7vh;
+}
+
+.checkbox {
+  width: 1.7vh;
+  height: 1.7vh;
+  margin-right: 0.7vh;
+  border-radius: 0.3vh;
+}
+
+.checkbox:checked {
+  background-color: #51864b;
+}
+
+/* Hide spinbox from input number in Firefox */
+input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+#t-message {
+  padding: 0.2vh 0 0.2vh 1.4vh;
+  width: 27.4vh;
+  margin: 1vh 0 0.4vh 0;
+}
+
+.extra-data-container {
+  margin: 0 1vh 0.6vh 2.5vh;
+}
+
+.penguin-logo {
+  margin-top: 0.6vh;
+  width: 5.1vh;
+}
+
+.vertical-line {
+  width: 0.2vh;
+  height: 5.5vh;
+  margin: 0 1.2vh 0.2vh 1vh;
+}
+
+.container-form-buttons {
+  margin-right: 2.6vh;
+  margin: 0 2.6vh 1.5vh 0;
+}
+
+.options-button {
+  margin: 0 0 0 2vh;
+  padding: 0 1vh 0 1vh;
+  height: 3.3vh;
+}
+
+.main-container {
+  padding: 0 1.2vh 1.3vh 1.2vh;
+}

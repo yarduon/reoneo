@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- https://yarduon.com -->
+
+<svg
+   width="93"
+   height="87"
+   version="1.1"
+   viewBox="0 0 24.605842 23.018267"
+   id="svg6"
+   sodipodi:docname="reset.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="6.3052632"
+     inkscape:cx="45.279633"
+     inkscape:cy="44.962437"
+     inkscape:window-width="1920"
+     inkscape:window-height="949"
+     inkscape:window-x="1920"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <g
+     id="g6"
+     transform="translate(-0.250579,-0.3798665)">
+    <g
+       transform="matrix(0.59985,0,0,0.59985,-66.019,-33.696)"
+       fill="#fefefe"
+       id="g3">
+      <path
+         d="M 126.88,75.598 V 56.986 l -16.133,9.335 z"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="0.65987"
+         id="path1" />
+      <g
+         transform="matrix(1.3432,0,0,1.3432,-53.003,-14.928)"
+         id="g2">
+        <path
+           transform="scale(0.26458)"
+           d="m 531.18,218.2 c -22.365,0.001 -35.6,4.4496 -36.888,26.777 l 4.2471,1.4976 c 5.5189,-16.676 15.021,-16.437 32.587,-16.437 17.567,-2.5e-4 33.155,11.26 38.674,27.938 h 3.5195 c -1.2884,-22.329 -19.771,-39.775 -42.137,-39.775 z"
+           fill="#fefefe"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-width="2.494"
+           id="path2" />
+      </g>
+    </g>
+    <g
+       transform="matrix(-0.59985,0,0,-0.59985,91.126,57.474)"
+       fill="#ffffff"
+       id="g5">
+      <path
+         d="M 126.88,75.598 V 56.986 l -16.133,9.335 z"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="0.65987"
+         id="path3" />
+      <g
+         transform="matrix(1.3432,0,0,1.3432,-53.003,-14.928)"
+         id="g4">
+        <path
+           transform="scale(0.26458)"
+           d="m 531.18,218.2 c -22.365,0.001 -35.6,4.4496 -36.888,26.777 l 4.2471,1.4976 c 5.5189,-16.676 15.021,-16.437 32.587,-16.437 17.567,-2.5e-4 33.155,11.26 38.674,27.938 h 3.5195 c -1.2884,-22.329 -19.771,-39.775 -42.137,-39.775 z"
+           fill="#ffffff"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-width="2.494"
+           id="path4" />
+      </g>
+    </g>
+  </g>
+</svg>

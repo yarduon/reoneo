@@ -1,0 +1,375 @@
+<!-- https://yarduon.com -->
+<!DOCTYPE html>
+<html lang="en" class="flex column max-height" id="language">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Colorful counter to quantify scores of different teams with a timer"
+    />
+    <meta name="google" content="notranslate" />
+    <meta name="theme-color" content="#161618" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link
+      rel="apple-touch-icon"
+      href="./img/pwa/icons/reoneo_icon_1024x1024.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="./img/pwa/icons/reoneo_icon_1024x1024.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="./img/pwa/icons/reoneo_icon_1024x1024.png"
+    />
+    <link rel="manifest" href="./manifest.json" />
+    <title>Reoneo</title>
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/position.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script type="module" src="./js/main.js" defer></script>
+  </head>
+  <body class="flex column anton max-width max-height overflow-hidden black">
+    <div
+      class="initial-screen max-width max-height absolute light-black"
+      id="initial-screen"
+    ></div>
+    <input
+      class="burger-checkbox absolute"
+      type="checkbox"
+      id="burger-checkbox"
+    />
+    <div
+      class="top-container flex justify-center align-center relative overflow-hidden black"
+    >
+      <button
+        class="reset flex justify-center align-center absolute opacity touch"
+        id="reset"
+      >
+        <img
+          class="reset-icon"
+          src="./img/icons/reset.svg"
+          alt="Reset button"
+        />
+      </button>
+      <button
+        class="edit flex justify-center align-center absolute opacity touch"
+        id="edit"
+      >
+        <img class="edit-icon" src="./img/icons/edit.svg" alt="Edit button" />
+      </button>
+      <div
+        class="alert-container max-width max-height absolute"
+        id="alert-container"
+      ></div>
+      <div class="container-timer flex column justify-between align-center">
+        <div
+          id="timer"
+          class="white-text flex justify-center align-center max-width max-height"
+        >
+          15:00
+        </div>
+        <div class="submenu flex justify-between align-center" id="submenu">
+          <button
+            class="flex justify-center align-center opacity touch"
+            class="white-text flex justify-center align-center opacity touch"
+            id="delete"
+          >
+            <img
+              class="icon-submenu"
+              src="./img/icons/minus.svg"
+              alt="Minus Button"
+            />
+          </button>
+          <button
+            class="flex justify-center align-center opacity touch"
+            id="add"
+          >
+            <img
+              class="icon-submenu"
+              src="./img/icons/plus.svg"
+              alt="Plus Button"
+            />
+          </button>
+          <button
+            class="button-timer white-text submenu-fontsize flex justify-center align-center opacity touch"
+            id="first-timer"
+          >
+            15'
+          </button>
+          <button
+            class="button-timer white-text submenu-fontsize flex justify-center align-center opacity touch"
+            id="second-timer"
+          >
+            20'
+          </button>
+          <button
+            class="flex justify-center align-center opacity touch"
+            id="player"
+          >
+            <img
+              class="icon-submenu"
+              src="./img/icons/play.svg"
+              alt="Play button"
+            />
+          </button>
+        </div>
+      </div>
+      <button
+        class="radius-button dark-grey flex justify-center align-center absolute opacity"
+        id="burger-button"
+      >
+        <label
+          class="flex justify-center align-center max-width max-height touch"
+          for="burger-checkbox"
+        >
+          <img
+            class="burger-icon"
+            src="./img/icons/burger.svg"
+            alt="Burger button"
+          />
+        </label>
+      </button>
+    </div>
+    <aside
+      class="burger-menu flex column align-center white-text light-black absolute hidden"
+    >
+      <h2 class="title-option-fontsize translate">Options</h2>
+      <hr class="horizontal-line light-grey" />
+      <form
+        class="form-burger flex column formdata-fontsize"
+        method="get"
+        id="form-burger"
+      >
+        <div class="flex column">
+          <section class="line flex justify-between">
+            <div class="flex column">
+              <label
+                class="subtitle-option-fontsize translate"
+                for="first-timer"
+                >1st timer</label
+              >
+              <div class="input-form-container flex align-center">
+                <div class="subcontainer-form flex column align-center">
+                  <input
+                    class="outline input-form white-text grey text-center time"
+                    id="f-minutes"
+                    value="15"
+                    type="number"
+                    min="0"
+                    max="99"
+                  />
+                  <label
+                    for="f-minutes"
+                    class="small-fontsize timer-text translate"
+                    >Minutes</label
+                  >
+                </div>
+                <div class="subcontainer-form flex column align-center">
+                  <input
+                    class="outline input-form white-text grey text-center time"
+                    id="f-seconds"
+                    value="0"
+                    type="number"
+                    min="0"
+                    max="59"
+                  />
+                  <label
+                    for="f-seconds"
+                    class="small-fontsize timer-text translate"
+                    >Seconds</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="flex column">
+              <label
+                class="subtitle-option-fontsize translate"
+                for="second-timer"
+                >2nd timer</label
+              >
+              <div class="input-form-container flex align-center">
+                <div class="subcontainer-form flex column align-center">
+                  <input
+                    class="outline input-form white-text grey text-center time"
+                    id="s-minutes"
+                    value="20"
+                    type="number"
+                    min="0"
+                    max="99"
+                  />
+                  <label
+                    for="s-minutes"
+                    class="small-fontsize timer-text translate"
+                    >Minutes</label
+                  >
+                </div>
+                <div class="subcontainer-form flex column align-center">
+                  <input
+                    class="outline input-form white-text grey text-center time"
+                    id="s-seconds"
+                    value="0"
+                    type="number"
+                    min="0"
+                    max="59"
+                  />
+                  <label
+                    for="s-seconds"
+                    class="small-fontsize timer-text translate"
+                    >Seconds</label
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="line">
+            <div class="container-section flex column justify-center">
+              <div class="subcontainer-form flex align-center">
+                <input
+                  id="winner"
+                  type="checkbox"
+                  class="mode checkbox light-red hidden-webstyles"
+                />
+                <label class="subtitle-option-fontsize translate" for="winner"
+                  >Winner mode</label
+                >
+              </div>
+              <div class="flex align-center">
+                <input
+                  disabled
+                  class="outline input-form white-text grey text-center points disabled"
+                  id="w-points"
+                  value="20"
+                  min="1"
+                  max="999"
+                  type="number"
+                />
+                <label
+                  class="subtitle-side small-fontsize disabled translate"
+                  for="w-points"
+                  id="label-w"
+                  >Points</label
+                >
+              </div>
+            </div>
+          </section>
+          <section class="line">
+            <div class="container-section flex column justify-center">
+              <div class="subcontainer-form flex align-center">
+                <input
+                  id="total"
+                  type="checkbox"
+                  class="mode checkbox light-red hidden-webstyles"
+                />
+                <label class="subtitle-option-fontsize translate" for="total"
+                  >Total mode</label
+                >
+              </div>
+              <div class="flex align-center">
+                <input
+                  disabled
+                  class="outline input-form white-text grey text-center points disabled"
+                  id="t-points"
+                  value="7"
+                  min="1"
+                  max="999"
+                  type="number"
+                />
+                <label
+                  class="subtitle-side small-fontsize disabled translate"
+                  for="t-points"
+                  id="label-t"
+                  >Points</label
+                >
+              </div>
+              <div class="flex column">
+                <input
+                  type="text"
+                  value="🎉🚩🥳🔥"
+                  disabled
+                  class="outline flex align-center white-text grey disabled max-width"
+                  id="t-message"
+                  maxlength="28"
+                />
+                <label
+                  for="message"
+                  id="label-msg"
+                  class="disabled small-fontsize translate"
+                  >Custom text</label
+                >
+              </div>
+            </div>
+          </section>
+          <section class="line">
+            <div class="container-section flex column justify-center">
+              <div class="subcontainer-form flex align-center">
+                <input
+                  id="showNames"
+                  type="checkbox"
+                  class="checkbox light-red hidden-webstyles extramode"
+                />
+                <label
+                  class="subtitle-option-fontsize translate"
+                  for="showNames"
+                  >Show names</label
+                >
+              </div>
+            </div>
+          </section>
+          <section class="line">
+            <div class="container-section flex column justify-center">
+              <div class="subcontainer-form flex align-center">
+                <input
+                  id="download"
+                  type="checkbox"
+                  class="checkbox light-red hidden-webstyles extramode"
+                />
+                <label class="subtitle-option-fontsize translate" for="download"
+                  >Download scores</label
+                >
+              </div>
+            </div>
+          </section>
+          <div class="container-form-buttons flex justify-center absolute">
+            <input
+              class="options-button white-text dark-grey touch opacity translate"
+              type="submit"
+              value="Save"
+              id="submit-changes"
+            />
+            <input
+              class="options-button white-text dark-grey touch opacity translate"
+              type="reset"
+              value="Reset"
+            />
+          </div>
+        </div>
+        <div
+          class="extra-data-container flex justify-between align-center absolute"
+        >
+          <a href="https://yarduon.com" target="_blank" rel="noreferrer">
+            <img
+              class="penguin-logo touch opacity"
+              srcset="./img/logos/white_penguin_128x128.png"
+              sizes="128px"
+              alt="White penguin in a suit"
+            />
+          </a>
+          <hr class="vertical-line light-grey" />
+          <div class="text-data-container small-fontsize">
+            <p class="translate">Version 1.6</p>
+            <p class="translate">09/29/2024</p>
+          </div>
+        </div>
+      </form>
+    </aside>
+    <main class="main-container flex wrap max-width"></main>
+  </body>
+</html>
